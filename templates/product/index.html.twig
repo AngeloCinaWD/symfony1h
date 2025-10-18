@@ -1,7 +1,9 @@
 {% extends 'base.html.twig' %}
 
+{#questa parte di codice viene renderizzata nel block title#}
 {% block title %}Hello ProductController!{% endblock %}
 
+{#questa parte di codice viene renderizzata nel block body#}
 {% block body %}
 <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
@@ -9,6 +11,7 @@
 </style>
 
 <div class="example-wrapper">
+{#  utilizzo della proprietà passata dal controller con l'escape {{ }}  #}
     <h1>Hello {{ controller_name }}! ✅</h1>
 
     This friendly message is coming from:

@@ -9,3 +9,9 @@
 ## [Symfony MakerBundle](https://symfony.com/bundles/SymfonyMakerBundle/current/index.html)
 
 ![make:controller](makecontroller.png)
+
+## [Routing](https://symfony.com/doc/current/routing.html)
+
+## [Twig references](https://symfony.com/doc/current/reference/twig_reference.html)
+
+## ![debug:router](debugRouter.png)

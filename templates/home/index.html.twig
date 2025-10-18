@@ -7,4 +7,7 @@
 
 {% block body %}
 <h1>Welcome!!</h1>
+
+{#  aggiungo un anchor che mi porti alla rotta /product richiamandola per name tramite metodo path() (restituisce path relativo) o url() (restituisce path assoluto)  #}
+    <a href="{{ path('product_index') }}">Vai al prodotto</a>
 {% endblock %}
