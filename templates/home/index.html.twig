@@ -1,1 +1,10 @@
+{# Estendo un template twig, la sintassi di twig è all'interno di {%  %} #}
+{# Estendo il file base.html.twig (in questo sono definiti dei block nominali), nel metodo extends di twig la path è relativa alla cartella templates #}
+
+{% extends 'base.html.twig' %}
+
+{# per inserire del codice in un blocco che è in template che ho esteso devo definire il nome del block dove voglio che il codice vada #}
+
+{% block body %}
 <h1>Welcome!!</h1>
+{% endblock %}
