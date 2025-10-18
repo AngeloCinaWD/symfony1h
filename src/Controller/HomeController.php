@@ -14,9 +14,10 @@ class HomeController extends AbstractController
 //        echo "Hello from a controller!!";
 
         // la path qui inserita è relativa alla cartella templates
-        $contents = $this->renderView('home/index.html.twig');
+//        $contents = $this->renderView('home/index.html.twig');
 
 //        return new Response("Hello from a controller!!");
-        return new Response($contents);
+//        return new Response($contents);
+        return $this->render('home/index.html.twig');
     }
 }
