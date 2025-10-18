@@ -17,3 +17,5 @@
 ## ![debug:router](debugRouter.png)
 
 ## [Databases and the Doctrine ORM](https://symfony.com/doc/current/doctrine.html)
+
+## [Doctrine Attributes reference](https://www.doctrine-project.org/projects/doctrine-orm/en/3.5/reference/attributes-reference.html#attributes-reference)
