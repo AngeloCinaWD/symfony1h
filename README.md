@@ -21,3 +21,7 @@
 ## [Doctrine Attributes reference](https://www.doctrine-project.org/projects/doctrine-orm/en/3.5/reference/attributes-reference.html#attributes-reference)
 
 ## [Doctrine Fake Data DoctrineFixturesBundle](https://symfony.com/bundles/DoctrineFixturesBundle/current/index.html)
+
+## [Fetching Objects from the DB](https://symfony.com/doc/current/doctrine.html#fetching-objects-from-the-database)
+
+## [Service Container](https://symfony.com/doc/current/service_container.html)

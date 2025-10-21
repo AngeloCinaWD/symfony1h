@@ -2,18 +2,21 @@
 
 namespace App\Controller;
 
+use App\Repository\ProductRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
 final class ProductController extends AbstractController
 {
-//    #[Route('/product', name: 'app_product')]
     #[Route('/product', name: 'product_index')]
-    public function index(): Response
+    public function index(ProductRepository $productRepository): Response
     {
-//        secondo parametro del metodo render() è un array associativo con indici i nomi delle proprietà che passiamo al template
-//        le proprietà nel template vengono richiamate per nome in {{ nome_proprietà }}
+        $products = $productRepository->findAll();
+
+//        dump($products);
+//        dd($products[0]);
+
         return $this->render('product/index.html.twig', [
             'controller_name' => 'ProductController',
         ]);
