@@ -19,3 +19,5 @@
 ## [Databases and the Doctrine ORM](https://symfony.com/doc/current/doctrine.html)
 
 ## [Doctrine Attributes reference](https://www.doctrine-project.org/projects/doctrine-orm/en/3.5/reference/attributes-reference.html#attributes-reference)
+
+## [Doctrine Fake Data DoctrineFixturesBundle](https://symfony.com/bundles/DoctrineFixturesBundle/current/index.html)
